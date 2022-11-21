@@ -1,0 +1,53 @@
+html,body{
+   scroll-behavior: smooth;
+}
+.mySwiper {
+   width: 100%;
+   height: 100%;
+}
+
+.mySwiper .swiper-slide {
+   background-position: center;
+   background-size: cover;
+}
+
+.mySwiper .swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+   content: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+   background-color: white;
+   color: #7e22ce;
+   width: fit-content;
+   height: fit-content;
+   padding: 0.5rem 1rem;
+   border-radius: 10px;
+   border: 1px solid;
+   top: 77%;
+}
+.service,.testy{
+   background-image: url("../images/bg-home-02.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.testy{
+   background-image: url("../images/bg-home-03.jpg");
+}
+.mySwiper2 .swiper-pagination span{
+   background-color: #fdba74;
+}
